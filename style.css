@@ -1,0 +1,41 @@
+@property --primaryColor{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #FFFFF0;
+}
+@property --secondaryColor{
+    syntax: "<color>";
+    inherits:true;
+    initial-value: #FFD59A;
+}
+body{
+    background-color: var(--primaryColor);
+    font-family: 'Times New Roman', Times, serif;
+}
+body > div{
+    border: 1px solid black;
+    width: 380px;
+    height: 450px;
+    margin: auto;
+    margin-top: 52px;
+    padding-top: 5px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+h3{
+    font-size: 35px;
+}
+#typePlace {
+    width: 130px;
+    height: 15px;
+    margin-bottom: 25px;
+}
+button{
+    width: 100px;
+    height: 15px;
+
+}
